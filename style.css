@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+section.home{
+    height: 100vh;
+    background-image: url(1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.header{
+    border-top: 10px solid aqua;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vh;
+}
+
+.hom li:nth-child(1){
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    width: 69px;
+}
+
+.menu{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    list-style: none;
+    height: 9vh;
+    align-items: center;
+    
+}
+
+.home-main h2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.home-main p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+
+
+
+.cars{
+    display: flex;
+    width: 70%;
+    margin: 100px;
+    justify-content: space-between;
+    list-style: none;
+    height: 9vh;
+    align-items: center;
+}
+
+.circle{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: blue;
+}
+
+.cards{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+.teacher-cards{
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.teacher-card{
+    border: 1px solid black;
+    width: 21%;
+    height: 350px;
+}
+
+.teacher-image{
+    height: 250px;
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.teacher-titme{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    flex-direction: column;
+    margin: 30px 0;
+}
+ 
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.teacher-cards .teacher-card:nth-child(2) .teacher-image{
+    background-image: url(./2.jpg);
+}
+
+.teacher-cards .teacher-card:nth-child(3) .teacher-image{
+    background-image: url(./3.jpg);
+}
+
+.teacher-cards .teacher-card:nth-child(4) .teacher-image{
+    background-image: url(./4.jpg);
+}
+
+
+
+
+
+
+
+.courses-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: -5px;
+}
+
+.courses-cards{
+    display: flex;
+    width: 80%;
+    margin: 150px auto;
+    justify-content: space-between;
+}
+
+.courses-card{
+    border: 1px solid black;
+    width: 25%;
+    height: 350px;
+}
+
+.courses-image{
+    height: 170px;
+    background-image: url(8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lawngreen;
+}
+
+
+.courses-cards .courses-card:nth-child(2) .courses-image{
+    background-image: url(./7.jpg);
+}
+
+
+.courses-cards .courses-card:nth-child(3) .courses-image{
+    background-image: url(./00.jpg);
+}
+
+.footer-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.courses-footer{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+
+}
+
+
+
+
+.reviews{
+    
+}
+.reviews-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.reviews-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: -5px;
+}
+
+.reviews-cards{
+    display: flex;
+    width: 80%;
+    margin: 150px auto;
+    justify-content: space-between;
+}
+
+.reviews-card{
+    border: 1px solid black;
+    width: 25%;
+    height: 180px;
+}
+
+.reviews-image{
+    display: flex;
+}
+
+
+
+
+
+.icons{
+    display: flex;
+}
+
+
+
+
+
+
+
+img{
+    width: 400px;
+}
+
+section.contact{
+    display: flex;
+    background-color: blue;
+    padding: 80px 0;
+
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.contact-form{
+    border: 1px solid black;
+}
+
+.contact-img{
+    border: 1px solid black;
+    width: 48%;
+}
+
+form input:nth-child(1){
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+form input:nth-child(2){
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+form textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+}
+
+form input:nth-child(4){
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+form{
+    margin-top: 15px;
+}
